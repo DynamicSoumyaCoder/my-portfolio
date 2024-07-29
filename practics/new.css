@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body{
+    background-image: url("red.jpg");
+    position: relative;
+    background-size: cover;
+    font-family: sans-serif;
+}
+ li{ 
+    display: inline-block;
+    padding: 15px 15px;
+}
+.a1{
+    color: white;
+    position: absolute;
+    left: 2cm;
+}
+.a2{
+    float: right;
+    color: white;
+}
+.home{
+    color: black;
+}
+.b1{
+    width: 50%;
+    float: left;
+    color: white;
+}
+.b2{
+    width: 50%;
+    height: 500px;
+    float: right;
+    /* background-image: url("/image/bg removed.png");
+    background-size: contain;
+    background-repeat: no-repeat; */
+    
+}   
+.img{
+    position: absolute;
+    height:470px;
+    top: 170px;
+    right: 100px; 
+}
+.para{
+    margin-left: 20%;
+    margin-top: 15%;
+    font-size: 25px;
+}
+button{
+    color: red;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: white;
+    border-color:white;
+}
